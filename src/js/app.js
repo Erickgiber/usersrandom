@@ -15,7 +15,7 @@ getJSON_({
             content: `
 		<img id="photo src="${photo}" alt="Photo" />
 		<span id="title"> Name: </span>
-		<span id="name"> ${completename} </span>`;
+		<span id="name"> ${completename} </span>`
         })
     }
 });
