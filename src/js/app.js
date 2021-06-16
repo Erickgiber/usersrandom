@@ -12,9 +12,9 @@ getJSON_({
         card_({
             container: "#root",
             content: `
-				<img id="photo" src="${photo}" alt="Photo">					
-				<div id="title"> Name: </div>
-				<span id="name"> ${completename} </span> `
+		<img id="photo" src="${photo}" alt="Photo">					
+		<div id="title"> Name: </div>
+		<span id="name"> ${completename} </span> `
         })
     }
 });
