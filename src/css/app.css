@@ -1,0 +1,58 @@
+/* Reseteando estilos */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  background: #20262E;
+  background-color: #111111;
+  color: #fff;
+  font-family: Arial;
+}
+
+#root {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	/* -- flex --*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#photo {
+	border-radius: 50%;
+	transition: 1s ease;
+	width: 130px;
+	height: 130px;
+}
+
+#title {
+	margin: 10px 0;
+}
+
+#name {
+	font-size: 22px;
+}
+
+#newuser {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	padding: 6px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: lighter;
+	border: 1.2px solid #505050;
+	background-color: transparent;
+	cursor: pointer;
+	transition: 0.1s ease;
+}
+
+#newuser:active {
+	transform: scale(0.9);
+}
